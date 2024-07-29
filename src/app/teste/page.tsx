@@ -1,9 +1,12 @@
 import Image from "next/image";
 import styles from "../page.module.css";
+import teste from "./teste.module.scss";
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={teste.main}>
+
       <div className={styles.description}>
         <p>
           Cold start test
