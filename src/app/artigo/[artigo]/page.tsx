@@ -9,7 +9,7 @@ const baseURL = 'https://blog.mestresdaweb.io/';
 
 
 
-export async function getData(artigo: string) {
+ async function getData(artigo: string) {
 
   const res = await fetch(`${baseURL}publication?page=2&limit=50`);
   
