@@ -127,7 +127,7 @@ export const projectdetails = {
   yogacoapp: {
     name: 'Yoga Co.',
     description:
-      'Aplicativo, Site e Retaguarda Web onde os usuários tem acesso à jornada completa de Yoga, <br> desde o iniciante até o avançado.',
+      'Aplicativo, Site e Retaguarda Web onde os usuários tem acesso à jornada completa de Yoga, <br/> desde o iniciante até o avançado.',
     mainimg: '/wp/projectimgs/yogacoapp/yogacoapp1.webp',
     articles: [
       {
