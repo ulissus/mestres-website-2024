@@ -1,11 +1,9 @@
-'use client';
-
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
 
 import parse from 'html-react-parser';
-import styles from './SassPage.module.scss';
+import styles from './sassPage.module.scss';
 
 
 interface Props {
