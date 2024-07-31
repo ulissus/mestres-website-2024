@@ -3,7 +3,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
-
+import parse from 'html-react-parser';
 
 
 
@@ -75,7 +75,7 @@ const ArticlePage = ({ article }: Props) => {
           <div className="main-section__article-wrapper">
             <article className="main-section__article" >
 
-              {/* {require('html-react-parser')(article?.content)} */}
+              { article.content ? parse(article?.content) : <h1>nao encontrado</h1>}
 
               <div className="main-section__bottom-row">
 

@@ -1,8 +1,9 @@
 import Head from 'next/head';
 
 import { IPublication } from '@/@types/interfaces';
-import ArticlePage from '../../ArticlePage/ArticlePage';
+
 import { simpleUrl } from '@/utils/masks/link';
+import SassPage from '@/app/SassPage/SassPage';
 
 const baseURL = 'https://blog.mestresdaweb.io/';
 
@@ -29,10 +30,6 @@ const baseURL = 'https://blog.mestresdaweb.io/';
     return null;
   }
  
-const {content, ...rest} = article
-
- const teste = {...rest}
-
 
  
   return article
@@ -51,7 +48,7 @@ const Tecnologia = async ({ params: { artigo } }: ParamsProps) => {
 
   return (
     <>
-      {article ? <ArticlePage {...{ article }} /> : null}
+      {article ? <SassPage {...{ article }} /> : null}
     </>
   );
 };
